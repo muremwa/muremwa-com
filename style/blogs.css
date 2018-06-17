@@ -43,12 +43,51 @@ footer p, footer span{
     width: 100px;
 }
 
-/* #others {
-    overflow: hidden;
-    position: fixed;
-    z-index: -1;
-} */
 
-/* #blogs  {
-    margin-left: 13em;
-} */
+#others {
+    margin-top: 10em;
+}
+
+
+#others ul {
+    padding-left: 0;
+}
+
+.post {
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+
+.blog-foot ul{
+    list-style-type: none;
+    float: right;
+}
+
+.blog-info {
+    padding-right: 0;
+}
+
+@media screen and ( max-width: 1077px){
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    #others {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+    .post {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+    .tags {
+        display: none;
+    }
+}
